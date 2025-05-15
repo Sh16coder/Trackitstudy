@@ -1,4 +1,29 @@
 // DOM Elements (same as before)
+const authSection = document.getElementById('authSection');
+const dashboard = document.getElementById('dashboard');
+const authBtn = document.getElementById('authBtn');
+const shareBtn = document.getElementById('shareBtn');
+const loginForm = document.getElementById('loginForm');
+const registerForm = document.getElementById('registerForm');
+const showRegisterBtn = document.getElementById('showRegisterBtn');
+const showLoginBtn = document.getElementById('showLoginBtn');
+const loginBtn = document.getElementById('loginBtn');
+const registerBtn = document.getElementById('registerBtn');
+const emailInput = document.getElementById('emailInput');
+const passwordInput = document.getElementById('passwordInput');
+const nameInput = document.getElementById('nameInput');
+const regEmailInput = document.getElementById('regEmailInput');
+const regPasswordInput = document.getElementById('regPasswordInput');
+const shareCodeInput = document.getElementById('shareCodeInput');
+const copyCodeBtn = document.getElementById('copyCodeBtn');
+const viewCodeInput = document.getElementById('viewCodeInput');
+const viewCodeBtn = document.getElementById('viewCodeBtn');
+const viewOthersContainer = document.getElementById('viewOthersContainer');
+const studyForm = document.getElementById('studyForm');
+const subjectSelect = document.getElementById('subjectSelect');
+const durationInput = document.getElementById('durationInput');
+const dateInput = document.getElementById('dateInput');
+
 // ...
 
 // Initialize the app
